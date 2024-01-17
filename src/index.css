@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: sohne;
+  src: url("./assets/fonts/89e193b98453504c456698844de4c52b.otf");
+}
+
+body {
+  font-family: sohne;
+}
+
+.logo-font {
+  font-family: "Poppins", sans-serif;
+}

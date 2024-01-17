@@ -1,0 +1,10 @@
+import Avatar from "./Avatar/Avatar";
+import BigText from "./BigText/BigText";
+import Button from "./Button/Button";
+import Icon from "./Icon/Icon";
+import MediumText from "./MediumText/MediumText";
+import SmallText from "./SmallText/SmallText";
+import Logo from "./Logo/Logo";
+import Input from "./Input/Input";
+
+export { Avatar, BigText, Button, Icon, MediumText, SmallText, Logo, Input };
