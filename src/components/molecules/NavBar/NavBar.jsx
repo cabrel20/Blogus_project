@@ -9,7 +9,7 @@ const NavBar = () => {
   return (
     <React.Fragment>
       <div
-        className={`flex items-center justify-between py-3 border-b border-dashed  ${BORDER_PRIMARY_100} ${CONTAINER}`}
+        className={`flex items-center justify-between py-2 border-b border-dashed  ${BORDER_PRIMARY_100} ${CONTAINER}`}
       >
         <div className="flex items-center gap-4">
           <Logo />
@@ -21,7 +21,7 @@ const NavBar = () => {
         </div>
 
         <div className="flex items-center gap-5">
-          <Button nameButton="Sign In" custom={true} />
+          <Button nameButton="Sign Up" custom={true} />
           <Button nameButton="Log In" />
         </div>
       </div>

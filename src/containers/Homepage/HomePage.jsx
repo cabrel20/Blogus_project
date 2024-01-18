@@ -1,11 +1,12 @@
 import React from "react";
-import { NavBar } from "../../components/molecules/";
+import { CategoryBar, NavBar } from "../../components/molecules/";
 
 const HomePage = () => {
   return (
     <React.Fragment>
       <div>
         <NavBar />
+        <CategoryBar />
       </div>
     </React.Fragment>
   );
