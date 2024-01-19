@@ -16,3 +16,11 @@ body {
 .logo-font {
   font-family: "Poppins", sans-serif;
 }
+
+.icon-wrapper-right {
+  background: linear-gradient(-90deg, #fff 78%, transparent);
+}
+
+.icon-wrapper-left {
+  background: linear-gradient(90deg, #fff 78%, transparent);
+}

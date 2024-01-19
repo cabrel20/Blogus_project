@@ -15,7 +15,7 @@ const Input = ({ rounded, onChange, placeholder, icon }) => {
           placeholder={placeholder}
           onChange={onChange}
           type="text"
-          className={`text-md px-8 h-full w-full outline-none ${BG_PRIMARY_100} ${COLOR_PRYMARY_200} ${rounded}`}
+          className={`text-sm px-10 h-full w-full outline-none ${BG_PRIMARY_100} ${COLOR_PRYMARY_200} ${rounded}`}
         />
       </div>
     </React.Fragment>

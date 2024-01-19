@@ -59,4 +59,12 @@ export const categories = [
     id: 12,
     titleCategory: "Diverstissement",
   },
+  {
+    id: 12,
+    titleCategory: "Food",
+  },
+  {
+    id: 12,
+    titleCategory: "Travel",
+  },
 ];

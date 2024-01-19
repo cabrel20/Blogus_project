@@ -71,7 +71,6 @@ export const getMonth = () => {
 
 // getYear function
 export const getYear = () => {
-  console.log(DATE.getFullYear());
   return DATE.getFullYear();
 };
 

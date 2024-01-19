@@ -1,5 +1,10 @@
 import React from "react";
-import { CategoryBar, NavBar } from "../../components/molecules/";
+import {
+  BodyArtcle,
+  CategoryBar,
+  Footer,
+  NavBar,
+} from "../../components/molecules/";
 
 const HomePage = () => {
   return (
@@ -7,6 +12,8 @@ const HomePage = () => {
       <div>
         <NavBar />
         <CategoryBar />
+        <BodyArtcle />
+        <Footer />
       </div>
     </React.Fragment>
   );
