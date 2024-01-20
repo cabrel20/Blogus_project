@@ -17,7 +17,7 @@ public class Image {
     private Long id;
     private String Path;
 
-    @OneToOne(mappedBy = "avatar")
+    @OneToOne
     @JoinColumn(name = "id_user")
     private User user;
 }

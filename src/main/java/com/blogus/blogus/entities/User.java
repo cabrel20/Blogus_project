@@ -2,6 +2,7 @@ package com.blogus.blogus.entities;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -13,7 +14,7 @@ import java.util.List;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Slf4j
+@Builder
 @Table(name = "Users")
 public class User {
     @Id
@@ -25,13 +26,12 @@ public class User {
     private String email;
     @Column(nullable = false)
     private String password;
-    private String Biographie;
+    private String biographie;
     private Date dateInscription;
 
     @OneToMany(mappedBy = "user")
     private List<Post> posts;
 
     @OneToOne(mappedBy = "user")
-    @JoinColumn(name = "id_avatar")
     private Image avatar;
 }
