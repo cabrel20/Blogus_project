@@ -8,6 +8,8 @@ import Logo from "./Logo/Logo";
 import Input from "./Input/Input";
 import { Lien } from "./Lien/Lien";
 import CategoryNewsCard from "./CategoryNewsCard/CategoryNewsCard";
+import SkeletonCard from "./SkeletonCard/SkeletonCard";
+import SkeletonCategory from "./SkeletonCategory/SkeletonCategory";
 
 export {
   Avatar,
@@ -20,4 +22,6 @@ export {
   Input,
   Lien,
   CategoryNewsCard,
+  SkeletonCard,
+  SkeletonCategory,
 };

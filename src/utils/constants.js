@@ -67,4 +67,20 @@ export const categories = [
     id: 12,
     titleCategory: "Travel",
   },
+  {
+    id: 12,
+    titleCategory: "Life",
+  },
+  {
+    id: 12,
+    titleCategory: "Actualité",
+  },
+  {
+    id: 12,
+    titleCategory: "School",
+  },
+  {
+    id: 12,
+    titleCategory: "Day",
+  },
 ];

@@ -15,6 +15,7 @@ const NewsCard = () => {
           <img
             src={img}
             alt="article_img"
+            loading="lazy"
             className={`w-full h-full object-cover ${BG_PRIMARY_100}`}
           />
           <Topic title="History" isAbsolute={true} />

@@ -5,6 +5,7 @@ import {
   Footer,
   NavBar,
 } from "../../components/molecules/";
+import Skeleton from "../../components/molecules/Skeleton/Skeleton";
 
 const HomePage = () => {
   return (
@@ -13,6 +14,7 @@ const HomePage = () => {
         <NavBar />
         <CategoryBar />
         <BodyArtcle />
+        {/* <Skeleton /> */}
         <Footer />
       </div>
     </React.Fragment>

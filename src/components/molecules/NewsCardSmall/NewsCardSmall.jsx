@@ -28,6 +28,7 @@ const NewsCardSmall = () => {
         <img
           src={img}
           alt="img_article"
+          loading="lazy"
           className={` h-36 w-1/3 object-cover ${BG_PRIMARY_100}`}
         />
       </div>

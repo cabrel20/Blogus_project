@@ -9,6 +9,7 @@ import {
 import Logo from "../../atoms/Logo/Logo";
 import { Button, Input } from "../../atoms";
 import { CiSearch } from "react-icons/ci";
+import { ROUTES_APP } from "../../../config/routes";
 
 const NavBar = () => {
   return (
@@ -23,13 +24,20 @@ const NavBar = () => {
           <Input
             rounded="rounded-full"
             placeholder="Search"
+            width="w-64"
+            padding="px-10"
+            type="search"
             icon={<CiSearch size={25} />}
           />
         </div>
 
         <div className="flex items-center gap-5">
-          <Button nameButton="Sign Up" custom={true} />
-          <Button nameButton="Log In" />
+          <Button
+            nameButton="Sign Up"
+            custom={true}
+            link={ROUTES_APP[0].path}
+          />
+          <Button nameButton="Log In" link={ROUTES_APP[0].path} />
         </div>
       </div>
     </React.Fragment>
