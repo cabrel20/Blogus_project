@@ -20,16 +20,16 @@ public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    @Column(nullable = false)
+    //@Column(nullable = false)
     private String userName;
-    @Column(nullable = false, unique = true)
+    //@Column(nullable = false, unique = true)
     private String email;
-    @Column(nullable = false)
+    //@Column(nullable = false)
     private String password;
     private String biographie;
     private Date dateInscription;
 
-    @OneToMany(mappedBy = "user")
+    @OneToMany(mappedBy = "user",cascade = CascadeType.ALL)
     private List<Post> posts;
 
     @OneToOne(mappedBy = "user")
