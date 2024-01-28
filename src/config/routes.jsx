@@ -39,12 +39,12 @@ export const ROUTES_APP = [
 export const menuProfile = [
   {
     title: "Profile",
-    icon: <CiUser size={25} />,
+    icon: <CiUser size={20} />,
     link: ROUTES_APP[3].path,
   },
   {
     title: "Stories",
-    icon: <CiBookmark size={25} />,
+    icon: <CiBookmark size={20} />,
     link: "/",
   },
 ];

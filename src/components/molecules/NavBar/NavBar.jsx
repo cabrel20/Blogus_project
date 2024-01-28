@@ -50,8 +50,18 @@ const NavBar = () => {
             icon={<FiEdit size={23} className=" text-gray-500" />}
           />
           <div className=" bg-none flex flex-col items-center cursor-pointer relative">
-            <Menu isShow={showMenu} />
-            <Avatar />
+            <span
+              onMouseLeave={() => setShowMenu(false)}
+              onMouseEnter={() => setShowMenu(true)}
+            >
+              {showMenu && <Menu />}
+            </span>
+            <span
+              onMouseLeave={() => setShowMenu(false)}
+              onMouseEnter={() => setShowMenu(true)}
+            >
+              <Avatar />
+            </span>
           </div>
         </div>
       </div>
