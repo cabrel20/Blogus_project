@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 import {
   BG_WHITE,
@@ -11,8 +11,12 @@ import { Avatar, Button, Icon, Input } from "../../atoms";
 import { CiSearch } from "react-icons/ci";
 import { FiEdit } from "react-icons/fi";
 import { ROUTES_APP } from "../../../config/routes";
+import Menu from "../Menu/Menu";
 
 const NavBar = () => {
+  //  show modal menu
+  const [showMenu, setShowMenu] = useState(false);
+
   return (
     <React.Fragment>
       <div
@@ -45,7 +49,10 @@ const NavBar = () => {
             link={ROUTES_APP[4].path}
             icon={<FiEdit size={23} className=" text-gray-500" />}
           />
-          <Avatar />
+          <div className=" bg-none flex flex-col items-center cursor-pointer relative">
+            <Menu isShow={showMenu} />
+            <Avatar />
+          </div>
         </div>
       </div>
     </React.Fragment>

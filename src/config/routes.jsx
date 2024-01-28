@@ -1,3 +1,4 @@
+// pages
 import {
   AuthPage,
   DetailsPage,
@@ -5,6 +6,10 @@ import {
   UserProfilePage,
   WritePage,
 } from "../containers";
+
+// icons
+import { CiUser } from "react-icons/ci";
+import { CiBookmark } from "react-icons/ci";
 
 // pages of app with different paths
 export const ROUTES_APP = [
@@ -27,5 +32,19 @@ export const ROUTES_APP = [
   {
     path: "/writepage",
     element: <WritePage />,
+  },
+];
+
+// menu profile
+export const menuProfile = [
+  {
+    title: "Profile",
+    icon: <CiUser size={25} />,
+    link: ROUTES_APP[3].path,
+  },
+  {
+    title: "Stories",
+    icon: <CiBookmark size={25} />,
+    link: "/",
   },
 ];

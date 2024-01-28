@@ -4,7 +4,7 @@ import { Lien, MediumText, SmallText } from "../../atoms";
 import { BG_PRIMARY_100, REDIRECT_LINK } from "../../../config/settings";
 
 const img =
-  "https://images.unsplash.com/photo-1682687220063-4742bd7fd538?q=80&w=1975&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
+  "https://images.unsplash.com/photo-1532187643603-ba119ca4109e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c2NpZW5jZXN8ZW58MHx8MHx8fDA%3D";
 
 const NewsCardSmall = () => {
   return (
@@ -25,12 +25,14 @@ const NewsCardSmall = () => {
             <Lien titleLink={REDIRECT_LINK} />
           </div>
         </div>
-        <img
-          src={img}
-          alt="img_article"
-          loading="lazy"
-          className={` h-36 w-1/3 object-cover ${BG_PRIMARY_100}`}
-        />
+        <div className="h-36 w-2/3">
+          <img
+            src={img}
+            alt="img_article"
+            loading="lazy"
+            className={` w-full h-full object-cover ${BG_PRIMARY_100}`}
+          />
+        </div>
       </div>
     </React.Fragment>
   );

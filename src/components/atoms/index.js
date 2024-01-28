@@ -10,6 +10,7 @@ import { Lien } from "./Lien/Lien";
 import CategoryNewsCard from "./CategoryNewsCard/CategoryNewsCard";
 import SkeletonCard from "./SkeletonCard/SkeletonCard";
 import SkeletonCategory from "./SkeletonCategory/SkeletonCategory";
+import MenuItem from "./MenuItem/MenuItem";
 
 export {
   Avatar,
@@ -24,4 +25,5 @@ export {
   CategoryNewsCard,
   SkeletonCard,
   SkeletonCategory,
+  MenuItem,
 };

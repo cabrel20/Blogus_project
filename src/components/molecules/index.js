@@ -6,6 +6,8 @@ import BodyArtcle from "./BodyArticle/BodyArtcle";
 import NewsCardSmall from "./NewsCardSmall/NewsCardSmall";
 import NewsCardMedium from "./NewsCardMedium/NewsCardMedium";
 import NewsCardBig from "./NewsCardBig/NewsCardBig";
+import Wrapper from "./Wrapper/Wrapper";
+import Menu from "./Menu/Menu";
 
 export {
   Footer,
@@ -16,4 +18,6 @@ export {
   CategoryBar,
   Slider,
   BodyArtcle,
+  Wrapper,
+  Menu,
 };

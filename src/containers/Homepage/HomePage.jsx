@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {
   BodyArtcle,
   CategoryBar,
@@ -8,6 +8,11 @@ import {
 import Skeleton from "../../components/molecules/Skeleton/Skeleton";
 
 const HomePage = () => {
+  // document title
+  useEffect(() => {
+    document.title = "Blogus | Home";
+  }, []);
+
   return (
     <React.Fragment>
       <div>

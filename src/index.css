@@ -24,3 +24,7 @@ body {
 .icon-wrapper-left {
   background: linear-gradient(90deg, #fff 78%, transparent);
 }
+
+.shadow-app {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
