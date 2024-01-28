@@ -21,7 +21,7 @@ const AuthPage = () => {
           src={img}
           alt="auth_img"
         />
-        <div className="flex flex-col items-center w-2/3 py-8">
+        <div className="flex flex-col justify-center items-center w-2/3 py-8">
           <span className="flex flex-col items-center gap-2">
             <Logo size="text-5xl" />
             <BigText>Welcome back</BigText>

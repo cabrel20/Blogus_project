@@ -81,6 +81,22 @@ export const categories = [
   },
   {
     id: 12,
-    titleCategory: "Day",
+    titleCategory: "DayLife",
+  },
+  {
+    id: 12,
+    titleCategory: "DayToDay",
+  },
+  {
+    id: 12,
+    titleCategory: "DayBest",
+  },
+  {
+    id: 12,
+    titleCategory: "Cameroon",
+  },
+  {
+    id: 12,
+    titleCategory: "Others",
   },
 ];

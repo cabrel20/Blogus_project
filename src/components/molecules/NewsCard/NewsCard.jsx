@@ -5,7 +5,7 @@ import { BG_PRIMARY_100, REDIRECT_LINK } from "../../../config/settings";
 import Topic from "../../atoms/Topic/Topic";
 
 const img =
-  "https://images.unsplash.com/photo-1705579830227-64b7df9b1b69?q=80&w=1889&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
+  "https://images.unsplash.com/photo-1518842013791-b874be246c34?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHNjaWVuY2VzfGVufDB8fDB8fHww";
 
 const NewsCard = () => {
   return (

@@ -11,8 +11,8 @@ const NewsCardSmall = () => {
     <React.Fragment>
       <div className="flex  justify-between gap-3">
         <div className=" space-y-4">
-          <div className="flex items-center gap-3">
-            <Topic title="Crypto" />
+          <div className="flex flex-col w-2/3 gap-3">
+            <Topic title="Divertissement" />
             <SmallText>June 12, 2022</SmallText>
           </div>
           <div>

@@ -8,7 +8,7 @@ const NewsCardMedium = () => {
     <React.Fragment>
       <div className=" space-y-5">
         <div className=" flex items-center gap-3">
-          <Topic title="Politics" />
+          <Topic title="Divertissement" />
           <SmallText>May 20, 2023</SmallText>
         </div>
         <div className="space-y-5">

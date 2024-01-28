@@ -5,6 +5,7 @@ const COLOR_PRYMARY_200_1 = "text-gray-700";
 const COLOR_PRYMARY_300 = " text-black ";
 const COLOR_SECONDARY = " text-violet-600 ";
 const COLOR_WHITE = " text-white ";
+
 // background colors app
 const BG_PRIMARY_100 = " bg-gray-100 ";
 const BG_PRIMARY_200 = " bg-gray-500 ";
@@ -12,10 +13,10 @@ const BG_PRIMARY_300 = " bg-black ";
 const BG_WHITE = " bg-white ";
 
 // border colors app
-const BORDER_PRIMARY_100 = " border-gray-300 ";
+const BORDER_PRIMARY_100 = " border-gray-200 ";
 
 // border
-const BORDER = " border-dashed ";
+const BORDER = " border ";
 
 // spacing
 const CONTAINER = " px-10 ";
@@ -28,6 +29,9 @@ const HOVER_PRIMARY_100 = " hover:bg-gray-200 ";
 
 // redirect link
 const REDIRECT_LINK = "Continue to read";
+
+// scroll value for category bar
+const SCROLLVALUE = 500;
 
 export {
   COLOR_PRYMARY_100,
@@ -46,4 +50,5 @@ export {
   ROUNDED,
   HOVER_PRIMARY_100,
   REDIRECT_LINK,
+  SCROLLVALUE,
 };

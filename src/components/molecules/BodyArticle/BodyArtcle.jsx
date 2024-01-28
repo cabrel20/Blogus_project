@@ -14,7 +14,7 @@ import NewsCardSmall from "../NewsCardSmall/NewsCardSmall";
 const BodyArtcle = () => {
   return (
     <React.Fragment>
-      <div className={` grid grid-cols-3  my-4 ${CONTAINER}`}>
+      <div className={` grid grid-cols-3 mb-4 ${CONTAINER}`}>
         <div className={`flex flex-col px-4`}>
           <CategoryNewsCard
             title="Archeology"
@@ -25,9 +25,7 @@ const BodyArtcle = () => {
             <NewsCard />
           </div>
         </div>
-        <div
-          className={`flex flex-col gap-4 px-4  ${BORDER + BORDER_PRIMARY_100}`}
-        >
+        <div className={`flex flex-col gap-4 px-4`}>
           <CategoryNewsCard title="Latest News" />
           <div className=" space-y-16">
             <NewsCardMedium />

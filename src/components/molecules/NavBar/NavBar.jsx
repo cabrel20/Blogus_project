@@ -7,8 +7,9 @@ import {
   CONTAINER,
 } from "../../../config/settings";
 import Logo from "../../atoms/Logo/Logo";
-import { Button, Input } from "../../atoms";
+import { Avatar, Button, Icon, Input } from "../../atoms";
 import { CiSearch } from "react-icons/ci";
+import { FiEdit } from "react-icons/fi";
 import { ROUTES_APP } from "../../../config/routes";
 
 const NavBar = () => {
@@ -31,13 +32,20 @@ const NavBar = () => {
           />
         </div>
 
-        <div className="flex items-center gap-5">
+        {/* <div className="flex items-center gap-5">
           <Button
             nameButton="Sign Up"
             custom={true}
             link={ROUTES_APP[0].path}
           />
           <Button nameButton="Log In" link={ROUTES_APP[0].path} />
+        </div> */}
+        <div className=" flex items-center gap-4">
+          <Icon
+            link={ROUTES_APP[4].path}
+            icon={<FiEdit size={23} className=" text-gray-500" />}
+          />
+          <Avatar />
         </div>
       </div>
     </React.Fragment>

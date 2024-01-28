@@ -1,6 +1,7 @@
 import React from "react";
 import {
   BG_PRIMARY_300,
+  BORDER_PRIMARY_100,
   COLOR_PRYMARY_100,
   COLOR_PRYMARY_200,
   COLOR_WHITE,
@@ -26,8 +27,10 @@ const Button = ({
             onClick={onClick}
             className={` ${width} px-12 ${
               paddingY ? paddingY : "py-2"
-            } text-sm hover:bg-gray-500 transition-all ease-in-out ${ROUNDED} ${
-              custom ? COLOR_WHITE + BG_PRIMARY_300 : "border border-black"
+            } text-sm  transition-all ease-in-out ${ROUNDED} ${
+              custom
+                ? COLOR_WHITE + BG_PRIMARY_300 + "hover:bg-gray-500"
+                : "border hover:bg-gray-200" + BORDER_PRIMARY_100
             }`}
           >
             {nameButton}

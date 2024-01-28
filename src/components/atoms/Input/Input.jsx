@@ -17,9 +17,9 @@ const Input = ({
 }) => {
   return (
     <React.Fragment>
-      <div className={`${width} h-12 relative`}>
+      <div className={`${width} h-11 relative`}>
         {icon && (
-          <span className={`absolute top-3 left-2 ${COLOR_PRYMARY_200}`}>
+          <span className={`absolute top-2 left-2 ${COLOR_PRYMARY_200}`}>
             {icon}
           </span>
         )}
