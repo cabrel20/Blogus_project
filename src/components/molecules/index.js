@@ -8,6 +8,7 @@ import NewsCardMedium from "./NewsCardMedium/NewsCardMedium";
 import NewsCardBig from "./NewsCardBig/NewsCardBig";
 import Wrapper from "./Wrapper/Wrapper";
 import Menu from "./Menu/Menu";
+import StoryCard from "./StoryCard/StoryCard";
 
 export {
   Footer,
@@ -20,4 +21,5 @@ export {
   BodyArtcle,
   Wrapper,
   Menu,
+  StoryCard,
 };

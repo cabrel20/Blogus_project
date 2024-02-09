@@ -7,9 +7,9 @@ import {
   CONTAINER,
 } from "../../../config/settings";
 import Logo from "../../atoms/Logo/Logo";
-import { Avatar, Button, Icon, Input } from "../../atoms";
+import { Avatar, Icon, Input } from "../../atoms";
 import { CiSearch } from "react-icons/ci";
-import { FiEdit } from "react-icons/fi";
+import { CiEdit } from "react-icons/ci";
 import { ROUTES_APP } from "../../../config/routes";
 import Menu from "../Menu/Menu";
 
@@ -47,7 +47,7 @@ const NavBar = () => {
         <div className=" flex items-center gap-4">
           <Icon
             link={ROUTES_APP[4].path}
-            icon={<FiEdit size={23} className=" text-gray-500" />}
+            icon={<CiEdit size={25} className=" text-gray-500" />}
           />
           <div className=" bg-none flex flex-col items-center cursor-pointer relative">
             <span
